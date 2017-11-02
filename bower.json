@@ -1,0 +1,29 @@
+{
+  "name": "node",
+  "description": "",
+  "main": "src/app.js",
+  "authors": [
+    "Muralidhar Akurati"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/murali101002/node-express",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "dist/css/bootstrap..min.css",
+        "dist/js/bootstrap.js"
+      ]
+    }
+  }
+}
